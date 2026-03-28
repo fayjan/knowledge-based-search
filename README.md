@@ -32,7 +32,7 @@ The application follows a standard RAG workflow:
 
 ### 1. Clone the Repository
 ```bash
-    git clone [https://github.com/fayjan/knowledge-based-search](https://github.com/fayjan/knowledge-based-search)
+    git clone https://github.com/fayjan/knowledge-based-search
     cd knowledge-based-search
 ```
 ### 2. Create a Virtual Environment
@@ -54,7 +54,9 @@ For Windows:
 
 ### 4. Configuration
 Create a .env file in the root directory and add your OpenAI API key:
-OPENAI_API_KEY=REPLACE_WITH_YOUR_KEY
+```bash
+    OPENAI_API_KEY=REPLACE_WITH_YOUR_KEY
+```
 
 ### 💻 Running the Application
 ```bash
